@@ -5,7 +5,7 @@
 #define zoom PA8 // Зуммер
 #define NUM_KEYS 5 // количество знаков в пароле
 
-const int val = 10000; //Значение частоты сигнала
+const int val = 100; //Значение частоты сигнала
 char myarraw[NUM_KEYS] = { '1','2','3','4','5' }; // массив с верным кодом
 char button_pressed1[NUM_KEYS]; // Переменная хранящая считанный пароль
 char button_pressed; // Переменная для считывания пароля из монитора порта
@@ -116,7 +116,7 @@ void loop() {
 
     
     digitalWrite(LED3, LOW); // Тушим синий светодиод
-    digitalWrite(LED2, LOW); /da/ Тушим зеленый светодиод
+    digitalWrite(LED2, LOW); // Тушим зеленый светодиод
     digitalWrite(LED1, LOW); // Тушим красный светодиод
 }
 
