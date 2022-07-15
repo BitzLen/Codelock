@@ -2,7 +2,7 @@
 #define LED2 PB8 // зеленый светодиод
 #define LED3 PB1 // синий светодиод
 #define Cool PA1 // вентилятор 
-#define zoom PA8 // Зуммер
+#define zoom PA8 // Зуммер или бумер
 #define NUM_KEYS 5 // количество знаков в пароле
 
 const int val = 100; //Значение частоты сигнала
