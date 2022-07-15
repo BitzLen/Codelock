@@ -116,7 +116,7 @@ void loop() {
 
     
     digitalWrite(LED3, LOW); // Тушим синий светодиод
-    digitalWrite(LED2, LOW); // Тушим зеленый светодиод
+    digitalWrite(LED2, LOW); /da/ Тушим зеленый светодиод
     digitalWrite(LED1, LOW); // Тушим красный светодиод
 }
 
